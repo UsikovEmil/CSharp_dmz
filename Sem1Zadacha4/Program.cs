@@ -1,6 +1,6 @@
 ﻿Console.Clear();
 
-Console.WriteLine("(Какое число большее, а какое меньшее?)");
+Console.WriteLine("(Максимальное из этих чисел?)");
 
 Console.Write("Введите первое число:= ");
 int a = Convert.ToInt32(Console.ReadLine());
