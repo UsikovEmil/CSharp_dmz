@@ -8,7 +8,7 @@ int b = Convert.ToInt32(Console.ReadLine());
 
 if (a > b)
 {
-    Console.WriteLine($"Максимальное число = ({a}), оно число больше второго на: {a-b}");
+    Console.WriteLine($"Максимальное число = ({a}), оно больше второго на: {a-b}");
 }
 else if (a < b)
 {
