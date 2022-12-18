@@ -8,14 +8,14 @@ int b = Convert.ToInt32(Console.ReadLine());
 
 if (a > b)
 {
-    Console.WriteLine($"Первое число больше второго на: {a-b}");
+    Console.WriteLine($"Максимальное число = ({a}), оно число больше второго на: {a-b}");
 }
 else if (a < b)
 {
-    Console.WriteLine($"Второе число больше первого на: {b-a}");
+    Console.WriteLine($"Максимальное число = ({b}), оно больше первого на: {b-a}");
 }
 else
 {
-    Console.WriteLine("Извение но эти два числа равны"); 
+    Console.WriteLine("Извените но эти два числа равны"); 
 }
 
