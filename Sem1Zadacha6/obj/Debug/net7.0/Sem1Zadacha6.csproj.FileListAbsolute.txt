@@ -1,0 +1,15 @@
+E:\УЧЁБА\GeekBrains\I четверть\04 Знакомство с языками программирования\Семенар\ДЗ\Sem1Zadacha6\bin\Debug\net7.0\Sem1Zadacha6.exe
+E:\УЧЁБА\GeekBrains\I четверть\04 Знакомство с языками программирования\Семенар\ДЗ\Sem1Zadacha6\bin\Debug\net7.0\Sem1Zadacha6.deps.json
+E:\УЧЁБА\GeekBrains\I четверть\04 Знакомство с языками программирования\Семенар\ДЗ\Sem1Zadacha6\bin\Debug\net7.0\Sem1Zadacha6.runtimeconfig.json
+E:\УЧЁБА\GeekBrains\I четверть\04 Знакомство с языками программирования\Семенар\ДЗ\Sem1Zadacha6\bin\Debug\net7.0\Sem1Zadacha6.dll
+E:\УЧЁБА\GeekBrains\I четверть\04 Знакомство с языками программирования\Семенар\ДЗ\Sem1Zadacha6\bin\Debug\net7.0\Sem1Zadacha6.pdb
+E:\УЧЁБА\GeekBrains\I четверть\04 Знакомство с языками программирования\Семенар\ДЗ\Sem1Zadacha6\obj\Debug\net7.0\Sem1Zadacha6.csproj.AssemblyReference.cache
+E:\УЧЁБА\GeekBrains\I четверть\04 Знакомство с языками программирования\Семенар\ДЗ\Sem1Zadacha6\obj\Debug\net7.0\Sem1Zadacha6.GeneratedMSBuildEditorConfig.editorconfig
+E:\УЧЁБА\GeekBrains\I четверть\04 Знакомство с языками программирования\Семенар\ДЗ\Sem1Zadacha6\obj\Debug\net7.0\Sem1Zadacha6.AssemblyInfoInputs.cache
+E:\УЧЁБА\GeekBrains\I четверть\04 Знакомство с языками программирования\Семенар\ДЗ\Sem1Zadacha6\obj\Debug\net7.0\Sem1Zadacha6.AssemblyInfo.cs
+E:\УЧЁБА\GeekBrains\I четверть\04 Знакомство с языками программирования\Семенар\ДЗ\Sem1Zadacha6\obj\Debug\net7.0\Sem1Zadacha6.csproj.CoreCompileInputs.cache
+E:\УЧЁБА\GeekBrains\I четверть\04 Знакомство с языками программирования\Семенар\ДЗ\Sem1Zadacha6\obj\Debug\net7.0\Sem1Zadacha6.dll
+E:\УЧЁБА\GeekBrains\I четверть\04 Знакомство с языками программирования\Семенар\ДЗ\Sem1Zadacha6\obj\Debug\net7.0\refint\Sem1Zadacha6.dll
+E:\УЧЁБА\GeekBrains\I четверть\04 Знакомство с языками программирования\Семенар\ДЗ\Sem1Zadacha6\obj\Debug\net7.0\Sem1Zadacha6.pdb
+E:\УЧЁБА\GeekBrains\I четверть\04 Знакомство с языками программирования\Семенар\ДЗ\Sem1Zadacha6\obj\Debug\net7.0\Sem1Zadacha6.genruntimeconfig.cache
+E:\УЧЁБА\GeekBrains\I четверть\04 Знакомство с языками программирования\Семенар\ДЗ\Sem1Zadacha6\obj\Debug\net7.0\ref\Sem1Zadacha6.dll
