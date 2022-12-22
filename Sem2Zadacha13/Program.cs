@@ -7,9 +7,9 @@ int s = n.ToString().Length;
 
 Console.WriteLine($"Случайное число: {n}");
 
-if (s >= 3)
+if ( n >= 100)
 {
-    int x = n % 10;
+    int x = (n / 10) % 10;
     Console.WriteLine($"Третья цифра = {x}");
     Console.WriteLine(s);
 }
