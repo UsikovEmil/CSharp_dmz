@@ -2,7 +2,7 @@
 
 Console.Clear();
 
-int[] Cmas(string arr)
+/* int[] Cmas(string arr)
 {
     int len = arr.Length;
     int[] m = new int[len];
@@ -18,9 +18,9 @@ int[] Cmas(string arr)
 
 Console.WriteLine("Введите число");
 int[] mass2 = Cmas(Console.ReadLine());
-Console.WriteLine(string.Join(",", mass2));
+Console.WriteLine(string.Join(",", mass2)); */
 
-/* int[] Cmas(int arr)
+int[] Cmas(int arr)
 {
     int[] m = new int[arr];
     for (int i = 0; i < arr; i++)
@@ -36,4 +36,4 @@ Console.WriteLine(string.Join(",", mass2));
 
 Console.WriteLine("Введите 8 чисел");
 int[] mass2 = Cmas(8);
-Console.WriteLine(string.Join(",", mass2)); */
+Console.WriteLine(string.Join(",", mass2));
