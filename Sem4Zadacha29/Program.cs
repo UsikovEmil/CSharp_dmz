@@ -4,6 +4,7 @@ Console.Clear();
 
 int[] Cmas(int arr)
 {
+    Console.WriteLine($"Введите {arr} чисел");
     int[] m = new int[arr];
     for (int i = 0; i < arr; i++)
     {
@@ -16,6 +17,6 @@ int[] Cmas(int arr)
     return m;
 }
 
-Console.WriteLine("Введите 8 чисел");
+
 int[] mass2 = Cmas(8);
 Console.WriteLine(string.Join(",", mass2));
