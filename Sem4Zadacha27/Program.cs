@@ -15,9 +15,16 @@ int RNum(string m)
 
 int GSt(int a)
 {
-    int s = 1;
-    for (int i = 0; i < b; i++)
-        s *= a;    //s=s*a
+    int s = 0;
+    int b = 0;
+
+    while (a > 0)
+    {
+        b = a % 10;
+        s += b;    //s=s*b
+        a = a / 10;
+    }
+
     return s;
 }
 //-------------------------------------------------------
