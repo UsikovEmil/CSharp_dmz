@@ -35,7 +35,6 @@ void PrintMatrix(int[,] marray)
 
 void MultitMatrix(int[,] marray1, int[,] marray2)
 {
-    int sum = 0;
     int[,] marray = new int[marray1.GetLength(0), marray1.GetLength(1)];
 
     for (int i = 0; i < marray1.GetLength(0); i++)
