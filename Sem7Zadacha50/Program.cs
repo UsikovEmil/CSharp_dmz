@@ -32,14 +32,14 @@ string PrintMatrix(int[,] marray, int x, int y)
         }
         Console.WriteLine();
     }
-    if (marray.GetLength(0) < x && marray.GetLength(1) < y)
+    if (marray.GetLength(0) < x && marray.GetLength(1) < y || (x + y) <2)
     {
         return "такого числа в массиве нет";
     }
-    else return Convert.ToString(marray[x,y]);
+    else return Convert.ToString(marray[x - 1, y - 1]);
 
 
-    
+
 }
 int[,] array = matrix(4, 4);
 Console.Write("Введите позицию строки = ");
