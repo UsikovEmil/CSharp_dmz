@@ -9,13 +9,18 @@ Console.Clear();
 int[,] matrix(int R, int C)
 {
     int[,] marray = new int[R, C];
-    for (int i = 0; i < marray.GetLength(0); i++)
+    int LR = marray.GetLength(0);
+    int LC = marray.GetLength(1);
+    for (int i = 0; i < LR; i++)
     {
-        for (int j = 0; j < marray.GetLength(1); j++)
+        for (int j = 0; j < LC; j++)
         {
-            // marray[i, j] = new Random().Next(0, 10);
-             marray[i, j] = j + i + 1;
-            
+
+            if (j == LC - 1 || i == 0) marray[i, j] = j + i + 1;
+            if (i == LR - 1 && j < LC - 1) marray[i, j] = -j + i + LC + LR - 1;
+            if (i == LR - 2 && j < LC - 1) marray[i, j] = -j + i + (LC + LR) * 2 - 1;
+            if (i == LR - 2 && j == 0) marray[i, j] = j + i + LC + LR + 1;  //доработать
+            if (j < LC - 1 && i == 1) marray[i, j] = j + i + LC + LR + ((LC + LR) / 2) - 1; //доработать
         }
     }
     return marray;
@@ -27,37 +32,14 @@ void PrintMatrix(int[,] marray)
     {
         for (int j = 0; j < marray.GetLength(1); j++)
         {
-            Console.Write($" {marray[i, j]}");
-            //Console.Write($"{marray[i, j].ToString("## ##")}");
+            int mas = marray[i, j];
+            if (mas < 10) Console.Write($" 0{mas}");
+            else Console.Write($" {mas}");
+
         }
         Console.WriteLine();
     }
 }
-
-        // int[,] GetSpire(int n)
-        // {
-        //     var result = new int[n, n];
-        //     Random rand = new Random();
-        //     for (int i = 0; i < n; i++)
-        //         for (int j = 0; j < n; j++)
-        //             result[i, j] = rand.Next(n, n);
-        //     for (int currentChar = 1, padding = 0; padding < n / 2; padding++)
-        //     {
-        //         for (int j = padding; j < n - padding; j++)
-        //             result[padding, j] = currentChar;
-        //         for (int j = padding; j < n - padding; j++)
-        //             result[n - padding - 1, j] = currentChar;
-        //         for (int i = padding + 2; i < n - padding - 1; i++)
-        //             result[i, padding] = currentChar;
-        //         for (int i = padding + 1; i < n - padding - 1; i++)
-        //             result[i, n - padding - 1] = currentChar;
-        //         currentChar = 1 - currentChar;
-        //         result[padding + 1, padding] = currentChar;
-        //     }
-        //     if (n % 2 != 0 && result[0, 0] == 1)
-        //         result[n / 2, n / 2] = 1;
-        //     return result;
-        // }
 
 int[,] array = matrix(4, 4);
 PrintMatrix(array);
