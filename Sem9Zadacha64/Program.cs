@@ -2,4 +2,17 @@
 
 // N = 5 -> "5, 4, 3, 2, 1"
 // N = 8 -> "8, 7, 6, 5, 4, 3, 2, 1"
-Console.WriteLine("Hello, World!");
+
+Console.Clear();
+Console.Write("Введите число: ");
+int number = Convert.ToInt32(Console.ReadLine());
+
+
+void PrintBinaryViev(int n)
+{
+    if (n < 1) return;
+    Console.Write($"{n} ");
+    PrintBinaryViev(n-1); 
+}
+
+PrintBinaryViev(number);
